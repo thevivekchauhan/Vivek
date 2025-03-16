@@ -1,0 +1,261 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  nav .navbar-collapse {
+    background: rgb(0 0 0 / 80%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* margin-top: 30px; */
+    position: absolute;
+    top: 60px;
+    right: 15px;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    background: #010c15 !important;
+  }
+  .navbar-nav .nav-item a {
+    border: none;
+  }
+  .BodyContainer {
+    padding: 0px 15px;
+    margin-bottom: 60px;
+  }
+  .MySection {
+    height: auto;
+  }
+  .gameToe:before {
+    height: 100%;
+    width: 100%;
+    left: 0;
+  }
+
+  .Title {
+    font-size: 32;
+    line-height: 52px;
+  }
+  .subTitleBottom {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .MainBody {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .codeHero.mt-5 {
+    font-size: 14px;
+  }
+  .codeHero pre {
+    line-height: 18px;
+    padding: 0px !important;
+  }
+  .myLinks.gap-3.d-flex.mt-5 {
+    margin-top: 40px !important;
+  }
+
+  .board-row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .gameToeBox {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .gameToe h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gameToe .text-center.my-4.gap-5.d-flex.justify-content-center {
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+  .main_footer {
+    position: relative;
+    padding: 20px 0px;
+  }
+
+  .main_footer ul.firstBar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .main_footer .navbar-nav .nav-item a {
+    border: none !important;
+  }
+
+  button.navbar-toggler {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .sidebarAbout {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    border: none;
+    position: fixed;
+    bottom: 0;
+    margin: 0 !important;
+    width: 100%;
+    padding: 15px 40px !important;
+    margin: 0px -20px !important;
+    border-top: 1px solid;
+    z-index: 99999;
+    height: 55px;
+  }
+
+  .sidebarAbout .d-flex {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    width: 100%;
+  }
+  .contactTab {
+    margin-top: 0px !important;
+  }
+
+  .number-list {
+    display: none;
+  }
+
+  .infoTitle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about-me > .row {
+    border-left: 1px solid;
+  }
+
+  #about-me .catName {
+    border-top: 1px solid;
+  }
+
+  .bodyWraperContent .description {
+    font-size: 16px;
+    padding: 10px;
+    padding: 10px 15px !important;
+  }
+
+  .TitleTabsNew ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .infoTitle .list-group-item {
+    display: flex;
+    align-items: center;
+  }
+  .experience {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* gap: 0 !important; */
+  }
+
+  .description .col-md-11 {
+    padding: 0 !important;
+  }
+
+  .githubData {
+    border-top: 1px solid var(--border);
+    margin-top: 30px;
+  }
+  .categoryProjectList.p-3 {
+    max-height: 100% !important;
+    overflow-y: hidden;
+  }
+  .colProject.p-0.m-0 {
+    width: 100%;
+  }
+
+  .tabsCategory {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .row.projectRow.px-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+  }
+  .tabsCategory {
+    border-right: none !important;
+  }
+
+  .myCatT .border-bottom {
+    border: 1px solid;
+  }
+
+  h3.catName {
+    padding: 10px !important;
+  }
+
+  .catList {
+    border-left: 1px solid;
+  }
+
+  .catList ul.TabTitle {
+    padding: 15px;
+  }
+
+  footer button.navbar-toggler {
+    display: none;
+  }
+
+  .main_footer .navbar-nav .nav-item a {
+    border: none !important;
+    padding: 0 !important;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  footer ul.navbar-nav.ms-auto {
+    display: none;
+  }
+
+  .imageProfie .col-md-3,
+  .imageProfie .col-md-9 {
+    width: auto;
+  }
+  .imageProfie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .catList h3:before {
+    content: "project";
+  }
+  .Footer-brand {
+    margin: 0;
+    width: 280px;
+  }
+  footer .collapse:not(.show) {
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .main_footer .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: nowrap;
+  }
+}
