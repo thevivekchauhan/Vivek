@@ -2,7 +2,7 @@
 
 This project is a personal portfolio built using React.js for the frontend and WordPress as the backend. It combines various sections to showcase personal details, a Tic Tac Toe game for enhanced user experience, and projects fetched from WordPress.
 
-**Project Link  - https://reactjs-mohit.netlify.app/**
+**Project Link  - https://thevivekchauhan.netlify.app/**
 
 # Features:
 **Hero Section:** The hero section highlights personal details and includes a Tic Tac Toe game for interactive engagement.
