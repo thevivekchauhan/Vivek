@@ -25,7 +25,7 @@ export default function HeroSection() {
                 language="javascript"
                 style={dracula}
               >
-                const githubLink = "https://github.com/thevivekchauhan"
+                {/* const githubLink = "https://github.com/thevivekchauhan" */}
               </SyntaxHighlighter>
             </div>
             <div className="myLinks gap-3 d-flex mt-5">

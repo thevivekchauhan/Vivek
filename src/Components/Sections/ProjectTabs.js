@@ -6,6 +6,7 @@ import Jewellery from "../Project_image/jewellery.png";
 import vivekcodex from "../Project_image/vivekcodex.png";
 import vivekpassx from "../Project_image/vivekpassx.png";
 import Youtube from "../Project_image/Youtube.png";
+import vivekportfoliox from "../Project_image/vivekportfoliox.png";
 
 
 const ProjectTabs = () => {
@@ -34,6 +35,17 @@ const ProjectTabs = () => {
       imageWidth: 400,
       imageHeight: 200,
     },
+   
+    {
+      id: "react",
+      name: "vivekpassx",
+      image: vivekpassx,
+      liveLink: "https://vivekpassx.netlify.app/",
+      description:
+        " I have developed this website to help how strong your password is. It is a password strength checker tool that helps you to create a strong password. It is a free online tool that helps you to create a strong password.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
     {
       id: "react",
       name: "vivekcodex",
@@ -46,11 +58,11 @@ const ProjectTabs = () => {
     },
     {
       id: "react",
-      name: "vivekpassx",
-      image: vivekpassx,
-      liveLink: "https://vivekpassx.netlify.app/",
+      name: "vivekportfoliox",
+      image: vivekportfoliox,
+      liveLink: "https://vivekportfoliox.netlify.app/",
       description:
-        " I have developed this website to help how strong your password is. It is a password strength checker tool that helps you to create a strong password. It is a free online tool that helps you to create a strong password.",
+        "You can create your portfolio using this website in just four simple steps. Follow the process & your beautiful portfolio!",
       imageWidth: 400,
       imageHeight: 200,
     },
