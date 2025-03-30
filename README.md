@@ -1,15 +1,19 @@
-# React.js Portfolio - Headless WordPress Integration
+# React.js Portfolio - 
 
-This project is a personal portfolio built using React.js for the frontend and WordPress as the backend. It combines various sections to showcase personal details, a Tic Tac Toe game for enhanced user experience, and projects fetched from WordPress.
+This project is a personal portfolio built using React.js. It combines various sections to showcase personal details, a Tic Tac Toe game for enhanced user experience, and projects fetched from WordPress.
 
-**Project Link  - https://reactjs-mohit.netlify.app/**
+**Project Link  - https://thevivekchauhan.netlify.app/**
+
 
 # Features:
+
+
 **Hero Section:** The hero section highlights personal details and includes a Tic Tac Toe game for interactive engagement.
 
 **Personal Details:** This section provides comprehensive information such as contact details, bio, interests, and experience. Additionally, a sidebar displays GitHub repositories fetched using the GitHub API.
 
 **Projects Section:** This section showcases projects fetched from WordPress. To accomplish this, a custom post type and advanced custom fields were created in WordPress. The projects are displayed with their names, descriptions, and links.
+
 
 # Key Technologies Used:
 
@@ -19,9 +23,8 @@ This project is a personal portfolio built using React.js for the frontend and W
 
 **Headless WordPress:** The project follows a headless architecture, separating the frontend and backend to provide flexibility and easy integration.
 
-# Key Learnings:
 
-**API Integration:** Fetching data from GitHub and WordPress using their respective APIs.
+# Key Learnings:
 
 **Game Development:** Creating a Tic Tac Toe game for an enhanced user experience.
 
