@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../assets/Vivek_Chauhan_resume.pdf";
+import myResume from "../assets/Vivek-Resume.pdf";
 export default function Header() {
   return (
     <div className="main_header">
