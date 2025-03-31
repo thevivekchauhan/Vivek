@@ -19,11 +19,6 @@ This project is a personal portfolio built using React.js. It combines various s
 
 **React.js:** Frontend framework for building interactive user interfaces.
 
-**WordPress:** Backend CMS used for managing and organizing project data.
-
-**Headless WordPress:** The project follows a headless architecture, separating the frontend and backend to provide flexibility and easy integration.
-
-
 # Key Learnings:
 
 **Game Development:** Creating a Tic Tac Toe game for an enhanced user experience.
