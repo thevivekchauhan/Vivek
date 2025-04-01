@@ -4,9 +4,7 @@ This project is a personal portfolio built using React.js. It combines various s
 
 **Project Link  - https://thevivekchauhan.netlify.app/**
 
-
-# Features:
-
+# Features:-
 
 **Hero Section:** The hero section highlights personal details and includes a Tic Tac Toe game for interactive engagement.
 
