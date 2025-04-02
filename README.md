@@ -13,10 +13,6 @@ This project is a personal portfolio built using React.js. It combines various s
 **Projects Section:** This section showcases projects fetched from WordPress. To accomplish this, a custom post type and advanced custom fields were created in WordPress. The projects are displayed with their names, descriptions, and links.
 
 
-# Key Technologies Used:
-
-**React.js:** Frontend framework for building interactive user interfaces.
-
 # Key Learnings:
 
 **Game Development:** Creating a Tic Tac Toe game for an enhanced user experience.
@@ -24,6 +20,5 @@ This project is a personal portfolio built using React.js. It combines various s
 **Code Syntax Highlighting:** Implementing a code syntax highlighter for code snippets.
 
 **Project Filters:** Incorporating filters to categorize and sort projects.
-
 
 This portfolio project demonstrates a clean and intuitive user interface along with a seamless integration of React.js and WordPress. The utilization of headless WordPress architecture ensures a flexible and scalable solution for managing and presenting personal projects.
