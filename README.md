@@ -4,21 +4,3 @@ This project is a personal portfolio built using React.js. It combines various s
 
 **Project Link  - https://thevivekchauhan.netlify.app/**
 
-# Features:-
-
-**Hero Section:** The hero section highlights personal details and includes a Tic Tac Toe game for interactive engagement.
-
-**Personal Details:** This section provides comprehensive information such as contact details, bio, interests, and experience. Additionally, a sidebar displays GitHub repositories fetched using the GitHub API.
-
-**Projects Section:** This section showcases projects fetched from WordPress. To accomplish this, a custom post type and advanced custom fields were created in WordPress. The projects are displayed with their names, descriptions, and links.
-
-
-# Key Learnings:
-
-**Game Development:** Creating a Tic Tac Toe game for an enhanced user experience.
-
-**Code Syntax Highlighting:** Implementing a code syntax highlighter for code snippets.
-
-**Project Filters:** Incorporating filters to categorize and sort projects.
-
-This portfolio project demonstrates a clean and intuitive user interface along with a seamless integration of React.js and WordPress. The utilization of headless WordPress architecture ensures a flexible and scalable solution for managing and presenting personal projects.
