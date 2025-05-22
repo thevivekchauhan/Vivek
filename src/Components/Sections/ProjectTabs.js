@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import podcast from "../Project_image/podcast.png";
+import Windows from "../Project_image/homeWindows.png";
+import mac from "../Project_image/finderMAC.png";
+import vivekroom from "../Project_image/Vivek's_Room.png";
 import Govhub from "../Project_image/GovHub.png";
 import Jewellery from "../Project_image/jewellery.png";
 import vivekcodex from "../Project_image/vivekcodex.png";
 import vivekpassx from "../Project_image/vivekpassx.png";
 import Youtube from "../Project_image/Youtube.png";
 import vivekportfoliox from "../Project_image/vivekportfoliox.png";
-
 
 const ProjectTabs = () => {
   const [categories, setCategories] = useState([]);
@@ -17,32 +19,31 @@ const ProjectTabs = () => {
   const projects = [
     {
       id: "manual_project",
-      name: "Find government job",
-      image: Govhub,
-      liveLink: "https://thevivekchauhan.github.io/GovHub/",
+      name: "MAC OS",
+      image: mac,
+      liveLink: "https://vivekmac.vercel.app/",
       description:
-        "The purpose of this website is to serve as a centralized platform for individuals seeking employment opportunities within government agencies at various levels, including local, state, and federal.",
+        "This project was built to serve as a macOS-inspired operating system, enabling users to experience a refined, Apple-style interface without being confined to proprietary hardware or software limitations.",
       imageWidth: 400,
       imageHeight: 200,
     },
     {
-      id: "htmlCssJs",
-      name: "Jewellery Website",
-      image: Jewellery,
-      liveLink: "https://thevivekchauhan.github.io/sonu/",
+      id: "manual_project",
+      name: "Windows OS",
+      image: Windows,
+      liveLink: "https://vivek-os-git-main-vivekos-projects.vercel.app/",
       description:
-        "I've designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments.",
+        "The goal of this platform is to serve as a Windows-inspired operating system, offering a centralized experience for users seeking a familiar yet independently developed desktop environment.",
       imageWidth: 400,
       imageHeight: 200,
     },
-   
-    {
-      id: "react",
-      name: "vivekpassx",
-      image: vivekpassx,
-      liveLink: "https://vivekpassx.netlify.app/",
+     {
+      id: "manual_project",
+      name: "Vivek's Room",
+      image: vivekroom,
+      liveLink: "https://vivekroom.vercel.app/",
       description:
-        " I have developed this website to help how strong your password is. It is a password strength checker tool that helps you to create a strong password. It is a free online tool that helps you to create a strong password.",
+        "This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.",
       imageWidth: 400,
       imageHeight: 200,
     },
@@ -67,12 +68,43 @@ const ProjectTabs = () => {
       imageHeight: 200,
     },
     {
+      id: "manual_project",
+      name: "Find government job",
+      image: Govhub,
+      liveLink: "https://thevivekchauhan.github.io/GovHub/",
+      description:
+        "The purpose of this website is to serve as a centralized platform for individuals seeking employment opportunities within government agencies at various levels.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
+    {
+      id: "htmlCssJs",
+      name: "Jewellery Website",
+      image: Jewellery,
+      liveLink: "https://thevivekchauhan.github.io/sonu/",
+      description:
+        "I've designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
+    {
+      id: "react",
+      name: "vivekpassx",
+      image: vivekpassx,
+      liveLink: "https://vivekpassx.netlify.app/",
+      description:
+        " I have developed this website to help how strong your password is. It is a password strength checker tool that helps you to create a strong password. It is a free online tool that helps you to create a strong password.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
+    {
       id: "podcasts",
       name: "Podcast",
       image: podcast,
-      liveLink: "https://podcasts.apple.com/us/podcast/vivek-chauhan/id1526873795",
+      liveLink:
+        "https://podcasts.apple.com/us/podcast/vivek-chauhan/id1526873795",
       description:
-        "I share valuable insights, second is that building a community or connecting with individuals.",
+        "I focus on delivering insightful content that adds value to others. At the heart of it is a desire to connect with people and build a supportive community.",
       imageWidth: 400,
       imageHeight: 200,
     },
@@ -81,7 +113,7 @@ const ProjectTabs = () => {
       name: "YouTube",
       image: Youtube,
       liveLink: "https://youtube.com/@thevivekchauhan?si=Rc_JfiGQ0R7XTCod",
-      description: "This is my YouTube channel and I am a travel vlogger.",
+      description: "I’m a travel vlogger capturing the beauty, culture, and stories of places I visit. Follow my journey through cinematic travel videos on this channel.",
       imageWidth: 400,
       imageHeight: 200,
     },
