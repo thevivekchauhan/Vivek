@@ -5,15 +5,14 @@ const data = [
     content: (
       <div>
         <p>
-          /** I am a highly motivated and hardworking individual seeking a challenging role in a
-          reputable organization where I can apply my skills and continue to grow.
-          */
+          /** I am a highly motivated and hardworking individual seeking a
+          challenging role in a reputable organization where I can apply my
+          skills and continue to grow. */
         </p>
         <p>
-          /** My goal is to
-          leverage my expertise in front-end development, video editing, and storytelling as a
-          travel vlogger to create impactful experiences and drive innovation
-          */
+          /** My goal is to leverage my expertise in front-end development,
+          video editing, and storytelling as a travel vlogger to create
+          impactful experiences and drive innovation */
         </p>
         <p>
           /** Although I am new to ReactJS, I have a strong foundation of
@@ -52,27 +51,23 @@ const data = [
     content: (
       <div className="experience gap-3 d-flex row      ">
         <div className="d-flex row gap-2">
-          <h3> Web Developer  </h3>
+          <h3> Web Developer </h3>
           <span className="small"> October 2023 – September 2024 </span>
           <p>
-            /**  Working on live projects has honed my problem-solving abilities and
-            deepened my understanding of real-world application development.
+            /** Working on live projects has honed my problem-solving abilities
+            and deepened my understanding of real-world application development.
             */
           </p>
           <p>
-            /**   Guidance from senior team members has allowed me to refine my skills
-            and adopt best practices in frontend development.
-            */
+            /** Guidance from senior team members has allowed me to refine my
+            skills and adopt best practices in frontend development. */
           </p>
+        </div>
+        <div className="d-flex row gap-2">
+          <h3> MERN Stack Developer </h3>
+          <span className="small"> April 2025 - Present </span>
           <p>
-            /**  I continuously strive to enhance my skill set by staying updated with
-            emerging frontend technologies and industry trends.
-            */
-          </p>
-          <p>
-            /**    In addition to my frontend development skills, I create engaging vlogs
-            that provide insights into company projects and team achievements. */
-            */
+            /** I'm training on full-stack JavaScript,ReactJS,MongoDB and Node.js building scalable web application and enhancing my development skills.*/
           </p>
         </div>
       </div>

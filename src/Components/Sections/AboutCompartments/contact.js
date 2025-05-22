@@ -6,17 +6,17 @@ export default function Contact() {
       <li className="list-group-item pe-cursor  p-0 pt-3  ">
         {/* <a
           className="d-flex gap-2 link-light link-offset-2 link-underline-opacity-0"
-          href="mailto:thechauhanvivek@gmail.com"
+          href="mailto:abc@gmmail.com"
         >
-          <i className="bi bi-envelope-at"></i>thechauhanvivek@gmail.com
+          <i className="bi bi-envelope-at"></i>abc@gmail.com
         </a> */}
       </li>
       <li className="list-group-item pe-cursor p-0 ">
         <a
           className=" gap-2 d-flex link-light link-offset-2 link-underline-opacity-0 "
-          // href="tel:+91 8530054009"
+          // href="tel:+91 "
         >
-          {/* <i className="bi bi-phone"></i>+91 8530054009 */}
+          <i className="bi bi-phone"></i>Mail me
         </a>
       </li>
     </ul>
