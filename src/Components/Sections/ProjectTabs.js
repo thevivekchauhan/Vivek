@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import podcast from "../Project_image/podcast.png";
+import vivekspace from "../Project_image/vivekspace.png";
 import Windows from "../Project_image/homeWindows.png";
 import mac from "../Project_image/finderMAC.png";
 import vivekroom from "../Project_image/Vivek's_Room.png";
@@ -19,6 +20,16 @@ const ProjectTabs = () => {
   const projects = [
     {
       id: "manual_project",
+      name: "Vivek Space",
+      image: vivekspace,
+      liveLink: "https://vivekspace.vercel.app/",
+      description:
+      "A showcase of rooms and spaces I’ve built, blending design, functionality, and craftsmanship. Each project reflects my commitment to quality and creating environments that inspire.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
+    {
+      id: "manual_project",
       name: "MAC OS",
       image: mac,
       liveLink: "https://vivekmac.vercel.app/",
@@ -27,6 +38,7 @@ const ProjectTabs = () => {
       imageWidth: 400,
       imageHeight: 200,
     },
+    
     {
       id: "manual_project",
       name: "Windows OS",
