@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import podcast from "../Project_image/podcast.png";
+import vivekresumebuilder from "../Project_image/vivekresumebuilder.png";
 import vivekspace from "../Project_image/vivekspace.png";
 import Windows from "../Project_image/homeWindows.png";
 import mac from "../Project_image/finderMAC.png";
@@ -18,6 +19,16 @@ const ProjectTabs = () => {
   const [selectedCategoryName, setSelectedCategoryName] = useState("");
 
   const projects = [
+    {
+      id: "manual_project",
+      name: "BuildMyResume",
+      image: vivekresumebuilder,
+      liveLink: "https://vivekresumebuilder.vercel.app/",
+      description:
+      "You can build a comprehensive, professional resume that effectively showcases your qualifications and makes a strong impression on potential employers.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
     {
       id: "manual_project",
       name: "Vivek Space",
