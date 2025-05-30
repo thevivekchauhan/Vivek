@@ -3,6 +3,7 @@ import axios from "axios";
 import podcast from "../Project_image/podcast.png";
 import vivekresumebuilder from "../Project_image/vivekresumebuilder.png";
 import vivekspace from "../Project_image/vivekspace.png";
+import viway from "../Project_image/viway.png";
 import Windows from "../Project_image/homeWindows.png";
 import mac from "../Project_image/finderMAC.png";
 import vivekroom from "../Project_image/Vivek's_Room.png";
@@ -65,6 +66,16 @@ const ProjectTabs = () => {
       name: "Vivek's Room",
       image: vivekroom,
       liveLink: "https://vivekroom.vercel.app/",
+      description:
+        "This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.",
+      imageWidth: 400,
+      imageHeight: 200,
+    },
+     {
+      id: "manual_project",
+      name: "Vi Way",
+      image: viway,
+      liveLink: "https://viway.vercel.app/",
       description:
         "This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.",
       imageWidth: 400,
