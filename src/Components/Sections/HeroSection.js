@@ -2,7 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import TicTacToe from "../TikTok";
-import myResume from "../assets/Vivek_Chauhan_resume.pdf";
+import myResume from "../assets/Vivek-Resume.pdf";
 
 export default function HeroSection() {
   return (
