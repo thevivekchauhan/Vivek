@@ -77,7 +77,7 @@ const ProjectTabs = () => {
       image: viway,
       liveLink: "https://viway.vercel.app/",
       description:
-        "This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.",
+        "ViWay is a travel vlog platform that curates and showcases engaging travel content. It offers a seamless user experience for discovering and enjoying travel vlogs from various destinations.",
       imageWidth: 400,
       imageHeight: 200,
     },
