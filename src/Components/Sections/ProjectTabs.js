@@ -55,7 +55,8 @@ const ProjectTabs = () => {
       id: "manual_project",
       name: "Windows OS",
       image: Windows,
-      liveLink: "https://vivekcore.vercel.app/",
+      // liveLink: "https://vivekcore.vercel.app/",
+      liveLink: "https://vivekcore-vivekos-projects.vercel.app/",
       description:
         "The goal of this platform is to serve as a Windows-inspired operating system, offering a centralized experience for users seeking a familiar yet independently developed desktop environment.",
       imageWidth: 400,
