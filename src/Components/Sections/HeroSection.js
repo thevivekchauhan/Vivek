@@ -16,7 +16,7 @@ export default function HeroSection() {
           <span className="subTitle"> Hi, I am</span>
           <h1 className="Title"> Vivek Chauhan</h1>
           <h2 className="subTitleBottom">{">"} Front-end developer</h2>
-          <div className="codeHero mt-4">
+          {/* <div className="codeHero mt-4">
             <SyntaxHighlighter language="javascript" style={dracula}>
               // complete/skip the game to continue website
             </SyntaxHighlighter>
@@ -24,9 +24,9 @@ export default function HeroSection() {
               // you can also see it on my Github page
             </SyntaxHighlighter>
             <SyntaxHighlighter className="mt-2" language="javascript" style={dracula}>
-              {/* const githubLink = "https://github.com/thevivekchauhan" */}
+              const githubLink = "https://github.com/thevivekchauhan"
             </SyntaxHighlighter>
-          </div>
+          </div> */}
           <div className="myLinks gap-3 d-flex mt-4 flex-wrap">
             <a href={myResume} className="btn solidBtn solidBig" target="_blank" rel="noopener noreferrer">
               _resume <i className="bi bi-file-earmark-person-fill"></i>
